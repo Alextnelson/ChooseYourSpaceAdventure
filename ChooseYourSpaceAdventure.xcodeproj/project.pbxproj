@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BD431D51CBB7423000257F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431D41CBB7423000257F3 /* AppDelegate.swift */; };
+		5BD431D71CBB7423000257F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431D61CBB7423000257F3 /* ViewController.swift */; };
+		5BD431DA1CBB7423000257F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD431D81CBB7423000257F3 /* Main.storyboard */; };
+		5BD431DC1CBB7423000257F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD431DB1CBB7423000257F3 /* Assets.xcassets */; };
+		5BD431DF1CBB7423000257F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD431DD1CBB7423000257F3 /* LaunchScreen.storyboard */; };
+		5BD431EA1CBB7423000257F3 /* ChooseYourSpaceAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431E91CBB7423000257F3 /* ChooseYourSpaceAdventureTests.swift */; };
+		5BD431F51CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431F41CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BD431E61CBB7423000257F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BD431C91CBB7423000257F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BD431D01CBB7423000257F3;
+			remoteInfo = ChooseYourSpaceAdventure;
+		};
+		5BD431F11CBB7423000257F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BD431C91CBB7423000257F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BD431D01CBB7423000257F3;
+			remoteInfo = ChooseYourSpaceAdventure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BD431D11CBB7423000257F3 /* ChooseYourSpaceAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseYourSpaceAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD431D41CBB7423000257F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BD431D61CBB7423000257F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BD431D91CBB7423000257F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BD431DB1CBB7423000257F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BD431DE1CBB7423000257F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BD431E01CBB7423000257F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD431E51CBB7423000257F3 /* ChooseYourSpaceAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseYourSpaceAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD431E91CBB7423000257F3 /* ChooseYourSpaceAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourSpaceAdventureTests.swift; sourceTree = "<group>"; };
+		5BD431EB1CBB7423000257F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD431F01CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseYourSpaceAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD431F41CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourSpaceAdventureUITests.swift; sourceTree = "<group>"; };
+		5BD431F61CBB7423000257F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD431CE1CBB7423000257F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD431E21CBB7423000257F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD431ED1CBB7423000257F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BD431C81CBB7423000257F3 = {
+			isa = PBXGroup;
+			children = (
+				5BD431D31CBB7423000257F3 /* ChooseYourSpaceAdventure */,
+				5BD431E81CBB7423000257F3 /* ChooseYourSpaceAdventureTests */,
+				5BD431F31CBB7423000257F3 /* ChooseYourSpaceAdventureUITests */,
+				5BD431D21CBB7423000257F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BD431D21CBB7423000257F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BD431D11CBB7423000257F3 /* ChooseYourSpaceAdventure.app */,
+				5BD431E51CBB7423000257F3 /* ChooseYourSpaceAdventureTests.xctest */,
+				5BD431F01CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BD431D31CBB7423000257F3 /* ChooseYourSpaceAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				5BD431D41CBB7423000257F3 /* AppDelegate.swift */,
+				5BD431D61CBB7423000257F3 /* ViewController.swift */,
+				5BD431D81CBB7423000257F3 /* Main.storyboard */,
+				5BD431DB1CBB7423000257F3 /* Assets.xcassets */,
+				5BD431DD1CBB7423000257F3 /* LaunchScreen.storyboard */,
+				5BD431E01CBB7423000257F3 /* Info.plist */,
+			);
+			path = ChooseYourSpaceAdventure;
+			sourceTree = "<group>";
+		};
+		5BD431E81CBB7423000257F3 /* ChooseYourSpaceAdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BD431E91CBB7423000257F3 /* ChooseYourSpaceAdventureTests.swift */,
+				5BD431EB1CBB7423000257F3 /* Info.plist */,
+			);
+			path = ChooseYourSpaceAdventureTests;
+			sourceTree = "<group>";
+		};
+		5BD431F31CBB7423000257F3 /* ChooseYourSpaceAdventureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BD431F41CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.swift */,
+				5BD431F61CBB7423000257F3 /* Info.plist */,
+			);
+			path = ChooseYourSpaceAdventureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BD431D01CBB7423000257F3 /* ChooseYourSpaceAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD431F91CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventure" */;
+			buildPhases = (
+				5BD431CD1CBB7423000257F3 /* Sources */,
+				5BD431CE1CBB7423000257F3 /* Frameworks */,
+				5BD431CF1CBB7423000257F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChooseYourSpaceAdventure;
+			productName = ChooseYourSpaceAdventure;
+			productReference = 5BD431D11CBB7423000257F3 /* ChooseYourSpaceAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BD431E41CBB7423000257F3 /* ChooseYourSpaceAdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD431FC1CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventureTests" */;
+			buildPhases = (
+				5BD431E11CBB7423000257F3 /* Sources */,
+				5BD431E21CBB7423000257F3 /* Frameworks */,
+				5BD431E31CBB7423000257F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BD431E71CBB7423000257F3 /* PBXTargetDependency */,
+			);
+			name = ChooseYourSpaceAdventureTests;
+			productName = ChooseYourSpaceAdventureTests;
+			productReference = 5BD431E51CBB7423000257F3 /* ChooseYourSpaceAdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BD431EF1CBB7423000257F3 /* ChooseYourSpaceAdventureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD431FF1CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventureUITests" */;
+			buildPhases = (
+				5BD431EC1CBB7423000257F3 /* Sources */,
+				5BD431ED1CBB7423000257F3 /* Frameworks */,
+				5BD431EE1CBB7423000257F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BD431F21CBB7423000257F3 /* PBXTargetDependency */,
+			);
+			name = ChooseYourSpaceAdventureUITests;
+			productName = ChooseYourSpaceAdventureUITests;
+			productReference = 5BD431F01CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BD431C91CBB7423000257F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jetwolfe Labs";
+				TargetAttributes = {
+					5BD431D01CBB7423000257F3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5BD431E41CBB7423000257F3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5BD431D01CBB7423000257F3;
+					};
+					5BD431EF1CBB7423000257F3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5BD431D01CBB7423000257F3;
+					};
+				};
+			};
+			buildConfigurationList = 5BD431CC1CBB7423000257F3 /* Build configuration list for PBXProject "ChooseYourSpaceAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BD431C81CBB7423000257F3;
+			productRefGroup = 5BD431D21CBB7423000257F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BD431D01CBB7423000257F3 /* ChooseYourSpaceAdventure */,
+				5BD431E41CBB7423000257F3 /* ChooseYourSpaceAdventureTests */,
+				5BD431EF1CBB7423000257F3 /* ChooseYourSpaceAdventureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BD431CF1CBB7423000257F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD431DF1CBB7423000257F3 /* LaunchScreen.storyboard in Resources */,
+				5BD431DC1CBB7423000257F3 /* Assets.xcassets in Resources */,
+				5BD431DA1CBB7423000257F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD431E31CBB7423000257F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD431EE1CBB7423000257F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BD431CD1CBB7423000257F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD431D71CBB7423000257F3 /* ViewController.swift in Sources */,
+				5BD431D51CBB7423000257F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD431E11CBB7423000257F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD431EA1CBB7423000257F3 /* ChooseYourSpaceAdventureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD431EC1CBB7423000257F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD431F51CBB7423000257F3 /* ChooseYourSpaceAdventureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BD431E71CBB7423000257F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BD431D01CBB7423000257F3 /* ChooseYourSpaceAdventure */;
+			targetProxy = 5BD431E61CBB7423000257F3 /* PBXContainerItemProxy */;
+		};
+		5BD431F21CBB7423000257F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BD431D01CBB7423000257F3 /* ChooseYourSpaceAdventure */;
+			targetProxy = 5BD431F11CBB7423000257F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BD431D81CBB7423000257F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD431D91CBB7423000257F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD431DD1CBB7423000257F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD431DE1CBB7423000257F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BD431F71CBB7423000257F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BD431F81CBB7423000257F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BD431FA1CBB7423000257F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChooseYourSpaceAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BD431FB1CBB7423000257F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChooseYourSpaceAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BD431FD1CBB7423000257F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChooseYourSpaceAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChooseYourSpaceAdventure.app/ChooseYourSpaceAdventure";
+			};
+			name = Debug;
+		};
+		5BD431FE1CBB7423000257F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChooseYourSpaceAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChooseYourSpaceAdventure.app/ChooseYourSpaceAdventure";
+			};
+			name = Release;
+		};
+		5BD432001CBB7423000257F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChooseYourSpaceAdventureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChooseYourSpaceAdventure;
+			};
+			name = Debug;
+		};
+		5BD432011CBB7423000257F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChooseYourSpaceAdventureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChooseYourSpaceAdventure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BD431CC1CBB7423000257F3 /* Build configuration list for PBXProject "ChooseYourSpaceAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD431F71CBB7423000257F3 /* Debug */,
+				5BD431F81CBB7423000257F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD431F91CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD431FA1CBB7423000257F3 /* Debug */,
+				5BD431FB1CBB7423000257F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BD431FC1CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD431FD1CBB7423000257F3 /* Debug */,
+				5BD431FE1CBB7423000257F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BD431FF1CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD432001CBB7423000257F3 /* Debug */,
+				5BD432011CBB7423000257F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BD431C91CBB7423000257F3 /* Project object */;
+}
