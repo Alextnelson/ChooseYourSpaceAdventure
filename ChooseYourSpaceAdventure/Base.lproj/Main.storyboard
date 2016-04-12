@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vn4-h4-Gwi">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RootViewController" customModule="ChooseYourSpaceAdventure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,102 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beginning" translatesAutoresizingMaskIntoConstraints="NO" id="8Zx-ce-AYu">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7j4-E6-dbL">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Start Adventure!"/>
+                                <connections>
+                                    <segue destination="QiH-eS-Lcz" kind="show" id="6n8-xA-Vgz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7j4-E6-dbL" secondAttribute="bottom" constant="48" id="5ut-Cz-cds"/>
+                            <constraint firstAttribute="trailing" secondItem="8Zx-ce-AYu" secondAttribute="trailing" id="CEw-zm-ghQ"/>
+                            <constraint firstItem="8Zx-ce-AYu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="LjE-CD-Lu5"/>
+                            <constraint firstItem="8Zx-ce-AYu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UiX-lY-gvr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7j4-E6-dbL" secondAttribute="bottom" constant="48" id="ct1-Ah-8AX"/>
+                            <constraint firstItem="7j4-E6-dbL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iHH-bV-lja"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Zx-ce-AYu" secondAttribute="bottom" id="kKi-br-vrc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="8Zx-ce-AYu"/>
+                                <exclude reference="7j4-E6-dbL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="CEw-zm-ghQ"/>
+                                <exclude reference="LjE-CD-Lu5"/>
+                                <exclude reference="UiX-lY-gvr"/>
+                                <exclude reference="iHH-bV-lja"/>
+                                <exclude reference="5ut-Cz-cds"/>
+                                <exclude reference="ct1-Ah-8AX"/>
+                                <exclude reference="kKi-br-vrc"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="8Zx-ce-AYu"/>
+                                <include reference="7j4-E6-dbL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="CEw-zm-ghQ"/>
+                                <include reference="LjE-CD-Lu5"/>
+                                <include reference="UiX-lY-gvr"/>
+                                <include reference="iHH-bV-lja"/>
+                                <include reference="5ut-Cz-cds"/>
+                                <include reference="ct1-Ah-8AX"/>
+                                <include reference="kKi-br-vrc"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="CUI-9Y-Wl9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1222.5" y="348"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RFC-IU-IE1">
+            <objects>
+                <viewController id="QiH-eS-Lcz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hG7-nr-bPQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="JQG-fv-qfT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IJH-8c-EFK">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="itW-5D-Res" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="348"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OFO-6W-p5w">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vn4-h4-Gwi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OZx-ac-hP9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="52F-x3-za8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m53-w1-Bh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="231" y="348"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Beginning" width="320" height="569"/>
+    </resources>
 </document>

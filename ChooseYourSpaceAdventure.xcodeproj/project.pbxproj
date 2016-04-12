@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BD431D51CBB7423000257F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431D41CBB7423000257F3 /* AppDelegate.swift */; };
-		5BD431D71CBB7423000257F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431D61CBB7423000257F3 /* ViewController.swift */; };
+		5BD431D71CBB7423000257F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431D61CBB7423000257F3 /* RootViewController.swift */; };
 		5BD431DA1CBB7423000257F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD431D81CBB7423000257F3 /* Main.storyboard */; };
 		5BD431DC1CBB7423000257F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD431DB1CBB7423000257F3 /* Assets.xcassets */; };
 		5BD431DF1CBB7423000257F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD431DD1CBB7423000257F3 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		5BD431D11CBB7423000257F3 /* ChooseYourSpaceAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseYourSpaceAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD431D41CBB7423000257F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BD431D61CBB7423000257F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BD431D61CBB7423000257F3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5BD431D91CBB7423000257F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BD431DB1CBB7423000257F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD431DE1CBB7423000257F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				5BD431D41CBB7423000257F3 /* AppDelegate.swift */,
-				5BD431D61CBB7423000257F3 /* ViewController.swift */,
+				5BD431D61CBB7423000257F3 /* RootViewController.swift */,
 				5BD431D81CBB7423000257F3 /* Main.storyboard */,
 				5BD431DB1CBB7423000257F3 /* Assets.xcassets */,
 				5BD431DD1CBB7423000257F3 /* LaunchScreen.storyboard */,
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					5BD431D01CBB7423000257F3 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 28Z9E8EXMP;
 					};
 					5BD431E41CBB7423000257F3 = {
 						CreatedOnToolsVersion = 7.3;
@@ -256,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD431D71CBB7423000257F3 /* ViewController.swift in Sources */,
+				5BD431D71CBB7423000257F3 /* RootViewController.swift in Sources */,
 				5BD431D51CBB7423000257F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +400,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ChooseYourSpaceAdventure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ChooseYourSpaceAdventure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.ChooseYourSpaceAdventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +489,7 @@
 				5BD431FB1CBB7423000257F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BD431FC1CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				5BD431FE1CBB7423000257F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BD431FF1CBB7423000257F3 /* Build configuration list for PBXNativeTarget "ChooseYourSpaceAdventureUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				5BD432011CBB7423000257F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
