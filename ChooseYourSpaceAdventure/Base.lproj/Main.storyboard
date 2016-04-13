@@ -24,7 +24,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Start Adventure!"/>
                                 <connections>
-                                    <segue destination="QiH-eS-Lcz" kind="show" id="6n8-xA-Vgz"/>
+                                    <segue destination="QiH-eS-Lcz" kind="show" identifier="startAdventure" id="6n8-xA-Vgz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="1222.5" y="348"/>
         </scene>
-        <!--View Controller-->
+        <!--Page View Controller-->
         <scene sceneID="RFC-IU-IE1">
             <objects>
-                <viewController id="QiH-eS-Lcz" sceneMemberID="viewController">
+                <viewController id="QiH-eS-Lcz" customClass="PageViewController" customModule="ChooseYourSpaceAdventure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hG7-nr-bPQ"/>
                         <viewControllerLayoutGuide type="bottom" id="JQG-fv-qfT"/>

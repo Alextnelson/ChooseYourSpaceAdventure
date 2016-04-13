@@ -13,5 +13,13 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "startAdventure" {
+            if let pvc = segue.destinationViewController as? PageViewController {
+                pvc.page = Adventure.adventure
+            }
+        }
+    }
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B7B18641CBD7A5700071705 /* SpaceStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B18631CBD7A5700071705 /* SpaceStory.swift */; };
+		5B7B18681CBD904D00071705 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B18671CBD904D00071705 /* PageViewController.swift */; };
 		5BD431D51CBB7423000257F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431D41CBB7423000257F3 /* AppDelegate.swift */; };
 		5BD431D71CBB7423000257F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD431D61CBB7423000257F3 /* RootViewController.swift */; };
 		5BD431DA1CBB7423000257F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD431D81CBB7423000257F3 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		5B7B18631CBD7A5700071705 /* SpaceStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpaceStory.swift; path = ../SpaceStory.swift; sourceTree = "<group>"; };
+		5B7B18671CBD904D00071705 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = ../PageViewController.swift; sourceTree = "<group>"; };
 		5BD431D11CBB7423000257F3 /* ChooseYourSpaceAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseYourSpaceAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD431D41CBB7423000257F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD431D61CBB7423000257F3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				5BD431D41CBB7423000257F3 /* AppDelegate.swift */,
+				5B7B18671CBD904D00071705 /* PageViewController.swift */,
 				5BD431D61CBB7423000257F3 /* RootViewController.swift */,
 				5B7B18631CBD7A5700071705 /* SpaceStory.swift */,
 				5BD431D81CBB7423000257F3 /* Main.storyboard */,
@@ -263,6 +266,7 @@
 				5BD431D71CBB7423000257F3 /* RootViewController.swift in Sources */,
 				5BD431D51CBB7423000257F3 /* AppDelegate.swift in Sources */,
 				5B7B18641CBD7A5700071705 /* SpaceStory.swift in Sources */,
+				5B7B18681CBD904D00071705 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
