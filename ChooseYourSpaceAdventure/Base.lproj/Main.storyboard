@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -60,17 +61,17 @@
                                 <exclude reference="Gty-Vp-jHV"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="CEw-zm-ghQ"/>
-                                <exclude reference="LjE-CD-Lu5"/>
-                                <exclude reference="UiX-lY-gvr"/>
+                                <exclude reference="5ut-Cz-cds"/>
+                                <exclude reference="ct1-Ah-8AX"/>
+                                <exclude reference="kKi-br-vrc"/>
                                 <exclude reference="HJM-ri-PGl"/>
                                 <exclude reference="afx-yO-z9N"/>
                                 <exclude reference="faF-jC-nqN"/>
                                 <exclude reference="Ye5-ag-2bE"/>
                                 <exclude reference="iHH-bV-lja"/>
-                                <exclude reference="5ut-Cz-cds"/>
-                                <exclude reference="ct1-Ah-8AX"/>
-                                <exclude reference="kKi-br-vrc"/>
+                                <exclude reference="CEw-zm-ghQ"/>
+                                <exclude reference="LjE-CD-Lu5"/>
+                                <exclude reference="UiX-lY-gvr"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -80,17 +81,17 @@
                                 <include reference="Gty-Vp-jHV"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="CEw-zm-ghQ"/>
-                                <include reference="LjE-CD-Lu5"/>
-                                <include reference="UiX-lY-gvr"/>
+                                <include reference="5ut-Cz-cds"/>
+                                <include reference="ct1-Ah-8AX"/>
+                                <include reference="kKi-br-vrc"/>
                                 <include reference="HJM-ri-PGl"/>
                                 <include reference="afx-yO-z9N"/>
                                 <include reference="faF-jC-nqN"/>
                                 <include reference="Ye5-ag-2bE"/>
                                 <include reference="iHH-bV-lja"/>
-                                <include reference="5ut-Cz-cds"/>
-                                <include reference="ct1-Ah-8AX"/>
-                                <include reference="kKi-br-vrc"/>
+                                <include reference="CEw-zm-ghQ"/>
+                                <include reference="LjE-CD-Lu5"/>
+                                <include reference="UiX-lY-gvr"/>
                             </mask>
                         </variation>
                     </view>
@@ -113,6 +114,7 @@
                         <viewControllerLayoutGuide type="bottom" id="JQG-fv-qfT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IJH-8c-EFK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
