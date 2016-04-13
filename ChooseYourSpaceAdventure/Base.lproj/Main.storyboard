@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -27,14 +28,28 @@
                                     <segue destination="QiH-eS-Lcz" kind="show" identifier="startAdventure" id="6n8-xA-Vgz"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gty-Vp-jHV">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BVs-s5-tRx"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7j4-E6-dbL" secondAttribute="bottom" constant="48" id="5ut-Cz-cds"/>
                             <constraint firstAttribute="trailing" secondItem="8Zx-ce-AYu" secondAttribute="trailing" id="CEw-zm-ghQ"/>
+                            <constraint firstItem="Gty-Vp-jHV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HJM-ri-PGl"/>
                             <constraint firstItem="8Zx-ce-AYu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="LjE-CD-Lu5"/>
                             <constraint firstItem="8Zx-ce-AYu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UiX-lY-gvr"/>
+                            <constraint firstItem="7j4-E6-dbL" firstAttribute="top" secondItem="Gty-Vp-jHV" secondAttribute="bottom" constant="123" id="Ye5-ag-2bE">
+                                <variation key="widthClass=compact" constant="40"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gty-Vp-jHV" secondAttribute="trailing" constant="24" id="afx-yO-z9N"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7j4-E6-dbL" secondAttribute="bottom" constant="48" id="ct1-Ah-8AX"/>
+                            <constraint firstItem="Gty-Vp-jHV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="faF-jC-nqN"/>
                             <constraint firstItem="7j4-E6-dbL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iHH-bV-lja"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Zx-ce-AYu" secondAttribute="bottom" id="kKi-br-vrc"/>
                         </constraints>
@@ -42,11 +57,16 @@
                             <mask key="subviews">
                                 <exclude reference="8Zx-ce-AYu"/>
                                 <exclude reference="7j4-E6-dbL"/>
+                                <exclude reference="Gty-Vp-jHV"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="CEw-zm-ghQ"/>
                                 <exclude reference="LjE-CD-Lu5"/>
                                 <exclude reference="UiX-lY-gvr"/>
+                                <exclude reference="HJM-ri-PGl"/>
+                                <exclude reference="afx-yO-z9N"/>
+                                <exclude reference="faF-jC-nqN"/>
+                                <exclude reference="Ye5-ag-2bE"/>
                                 <exclude reference="iHH-bV-lja"/>
                                 <exclude reference="5ut-Cz-cds"/>
                                 <exclude reference="ct1-Ah-8AX"/>
@@ -57,11 +77,16 @@
                             <mask key="subviews">
                                 <include reference="8Zx-ce-AYu"/>
                                 <include reference="7j4-E6-dbL"/>
+                                <include reference="Gty-Vp-jHV"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="CEw-zm-ghQ"/>
                                 <include reference="LjE-CD-Lu5"/>
                                 <include reference="UiX-lY-gvr"/>
+                                <include reference="HJM-ri-PGl"/>
+                                <include reference="afx-yO-z9N"/>
+                                <include reference="faF-jC-nqN"/>
+                                <include reference="Ye5-ag-2bE"/>
                                 <include reference="iHH-bV-lja"/>
                                 <include reference="5ut-Cz-cds"/>
                                 <include reference="ct1-Ah-8AX"/>
@@ -70,6 +95,10 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="CUI-9Y-Wl9"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="Gty-Vp-jHV" id="lc0-In-sY3"/>
+                        <outlet property="textFieldBottomConstraint" destination="Ye5-ag-2bE" id="zSM-PB-KUB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

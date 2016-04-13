@@ -30,6 +30,7 @@ class PageViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .whiteColor()
 
+        // Do any additional setup after loading the view.
         if let page = page {
             artwork.image = page.story.artwork
             let attributedString = NSMutableAttributedString(string: page.story.text)
@@ -41,6 +42,7 @@ class PageViewController: UIViewController {
 
             storyLabel.attributedText = attributedString
 
+
             if let firstChoice = page.firstChoice {
                 firstChoiceButton.setTitle(firstChoice.title, forState: .Normal)
                 firstChoiceButton.addTarget(self, action: #selector(PageViewController.loadFirstChoice), forControlEvents: .TouchUpInside)
@@ -49,14 +51,17 @@ class PageViewController: UIViewController {
                 firstChoiceButton.addTarget(self, action: #selector(PageViewController.playAgain), forControlEvents: .TouchUpInside)
             }
 
+
             if let secondChoice = page.secondChoice {
                 secondChoiceButton.setTitle(secondChoice.title, forState: .Normal)
-                firstChoiceButton.addTarget(self, action: #selector(PageViewController.loadSecondChoice), forControlEvents: .TouchUpInside)
-            } else {
-                    secondChoiceButton.setTitle("Play Again", forState: .Normal)
-                    secondChoiceButton.addTarget(self, action: #selector(PageViewController.playAgain), forControlEvents: .TouchUpInside)
+                secondChoiceButton.addTarget(self, action: #selector(PageViewController.loadSecondChoice), forControlEvents: .TouchUpInside)
             }
         }
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 
     override func viewWillLayoutSubviews() {
@@ -82,6 +87,7 @@ class PageViewController: UIViewController {
 
         view.addSubview(firstChoiceButton)
         firstChoiceButton.translatesAutoresizingMaskIntoConstraints = false
+
         NSLayoutConstraint.activateConstraints([
             firstChoiceButton.centerXAnchor.constraintEqualToAnchor(view.centerXAnchor),
             firstChoiceButton.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor, constant: -80.0)
@@ -99,23 +105,23 @@ class PageViewController: UIViewController {
     func loadFirstChoice() {
         if let page = page, firstChoice = page.firstChoice {
             let nextPage = firstChoice.page
-            let pvc = PageViewController(page: nextPage)
+            let pageController = PageViewController(page: nextPage)
 
-            navigationController?.pushViewController(pvc, animated: true)
+            navigationController?.pushViewController(pageController, animated: true)
         }
     }
 
     func loadSecondChoice() {
         if let page = page, secondChoice = page.secondChoice {
             let nextPage = secondChoice.page
-            let pvc = PageViewController(page: nextPage)
+            let pageController = PageViewController(page: nextPage)
 
-            navigationController?.pushViewController(pvc, animated: true)
+            navigationController?.pushViewController(pageController, animated: true)
         }
     }
 
     func playAgain() {
         navigationController?.popToRootViewControllerAnimated(true)
     }
-
+    
 }
